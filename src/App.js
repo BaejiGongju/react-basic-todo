@@ -6,12 +6,6 @@ import TodoList from './components/TodoList';
 import TodoCreate from './components/TodoCreate';
 import { TodoProvider } from './TodoContext';
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    background: #e9ecef;
-  }
-`;
-
 function App() {
   return (
     <TodoProvider>
@@ -26,3 +20,9 @@ function App() {
 }
 
 export default App;
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background: #e9ecef;
+  }
+`;
